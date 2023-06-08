@@ -28,7 +28,7 @@ principal_eigenvalue = np.abs(eigenvalues[principal_eigenvalue_index])
 CI = (principal_eigenvalue - n) / (n - 1)
 
 # Random index (RI) for matrix size
-RI = {3: 0.58, 4: 0.9, 5: 1.12, 6: 1.24, 7: 1.32, 8: 1.41, 9: 1.45, 10: 1.49}  # Add more values as needed
+RI = {3: 0.58, 4: 0.9, 5: 1.12, 6: 1.24, 7: 1.32, 8: 1.41, 9: 1.45, 10: 1.49}  
 
 # Calculate the consistency ratio (CR)
 CR = CI / RI[n]
